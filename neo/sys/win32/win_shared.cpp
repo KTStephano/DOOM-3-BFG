@@ -26,8 +26,11 @@ If you have questions concerning this license or the applicable additional terms
 ===========================================================================
 */
 
-#pragma hdrstop
+//#pragma hdrstop
+#pragma once
 #include "../../idlib/precompiled.h"
+
+#define _WIN32_WINNT 0x0501
 
 #include "win_local.h"
 #include <lmerr.h>
